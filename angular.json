@@ -3,14 +3,14 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "investment-calculator": {
+    "essentials-practice": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
           "skipTests": true
         },
         "@schematics/angular:service": {
-          "skipTests": true
+          "skipTests": false
         }
       },
       "root": "",
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/investment-calculator",
+            "outputPath": "dist/essentials-practice",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -66,10 +66,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "investment-calculator:build:production"
+              "buildTarget": "essentials-practice:build:production"
             },
             "development": {
-              "buildTarget": "investment-calculator:build:development"
+              "buildTarget": "essentials-practice:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -77,7 +77,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "investment-calculator:build"
+            "buildTarget": "essentials-practice:build"
           }
         },
         "test": {
