@@ -6,3 +6,11 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+# Ignore node_modules directory
+node_modules/
+
+# Ignore JetBrains IDE project files
+.idea/
+
+# Ignore .DS_Store files (specific to macOS)
+.DS_Store
