@@ -1,0 +1,25 @@
+{
+  "hash": "bc365036",
+  "configHash": "655fe6c2",
+  "lockfileHash": "f80bea31",
+  "browserHash": "c7e6bdc0",
+  "optimized": {
+    "@angular/core": {
+      "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "03e083ed",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "a5a487bf",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-TBSDPAXK": {
+      "file": "chunk-TBSDPAXK.js"
+    }
+  }
+}

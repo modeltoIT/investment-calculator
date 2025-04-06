@@ -5,7 +5,14 @@
   "projects": {
     "essentials-practice": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "skipTests": true
+        },
+        "@schematics/angular:service": {
+          "skipTests": true
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -95,5 +102,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "98a14df8-faac-4a7d-825c-5e2841568094"
   }
 }
